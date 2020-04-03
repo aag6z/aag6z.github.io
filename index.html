@@ -1,90 +1,10 @@
-<!DOCTYPE html>
-<html>
-	<head>        
-		<link rel="stylesheet" href="css/main.css">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/bootstrap-social.css" rel="stylesheet">
-		<link href="css/font-awesome.min.css" rel="stylesheet">        
-	</head>
-    
-    <body id="body">
-		<header id="header">			
-		<nav class="navbar navbar-default navbar-right" id="customnav" role="navigation">
-			<div class="container-fluid" id="customcont">    
-			<div class="collapse navbar-collapse" id="mainmenu">
-				<ul class="nav navbar-nav">
-					<li><a href="#">home</a></li>
-					<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">me<span class="caret"></span></a>
-					<ul class="dropdown-menu" role="menu">
-					<li><a href="#aboutme">aboutme</a></li>
-					</ul>
-					</li>
-					<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">projects<span class="caret"></span></a>
-					<ul class="dropdown-menu" role="menu">
-					<li><a href="#projects">general assembly</a></li>
-					</ul>
-					</li>
-					<li><a href="#contact">contact</a></li>	
-				</ul>
-			</div>
-			</div>
-		</nav>
-		</header>
-      
-    <section id="intro">    	
-    	<div class="content">
-		<h2>welcome.</h2>	
-		</div>
-    </section>   
-       
-    <section id="aboutme">       	
-		<div id="aboutmecont" class="content">
-		<h2>about me.</h2>
-		<div>
-		<img src="img/me.jpg"/>
-		<p> <strong> amy ghate </strong>- i am a computer and electrical engineer by way of the university of virginia. i currently work for microsoft as an infrastructure consultant but am an aspiring web developer. i live in the city near logan circle and love exploring new places to eat and drink. i love to travel and have been to several countries in europe. this year i got the chance to go to japan and it was one of the most memorable trips i have taken! (check out the pictures below)</p> 
-		<p>i am a women who code event leader and passionate about helping women around the dc area increase their tech footprint. i hope to use the skills i learn at general assembly to not only get a career in web development but to be able to better give back to the community. </p>
-		<button id="pic_button" class="btn btn-default" type="button">Show Pics</button>
+<!-- Include Runtime -->
+<script src="kbn_canvas.js"></script>
 
-		<div id="japanpic">
-		<img src="img/japan.jpg"/>
-		<img src="img/japan1.jpg"/>
-		<img src="img/japan2.jpg"/>
-		<img src="img/japan3.jpg"/>
+<!-- Placeholder -->
+<div kbn-canvas-shareable="canvas" kbn-canvas-url="amy_workpad.json" />
 
-		</div>
-		</div>        
-    	</div>   	
-   	</section>
-             
-    <section id="projects">
-    	<div class="content">
-       	<h2>projects.</h2>
-       	<div>
-       	<img src="img/ga.jpg" class="img-circle">
-       	<p id="hack">I hope to fill this with at least 5 projects over the course of 3 months at general assembly</p>
-       	</div>	
-       	</div>
-   	</section>
-       
-    <section id="contact">      
-		<div class="content">		
-		<h2>contact.</h2>
-       	<div>
-       	<p>email: amruta.ghate@gmail.com</p>
-        <p>phone: (703) 981-4542</p>
-        <p>address: 1209 13th st nw apt #604, washington, dc 20005</p>
-        <p><a href="https://twitter.com/affablea86" class="icon fa-twitter"></a> <a href="https://www.facebook.com/affableA" class="icon fa-facebook"></a></p>
-       	</div>
-		</div> 	
-    </section>
-      
-             
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>    
-    <script src="js/bootstrap.min.js"></script>
-	<script src="js/main.js"></script>
-    	         
-    </body>
-</html>
+<!-- Call Runtime -->
+<script type="text/javascript">
+  KbnCanvas.share();
+</script>
